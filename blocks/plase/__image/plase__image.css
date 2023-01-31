@@ -1,0 +1,26 @@
+.plase__image{
+  max-width: 460px;
+  max-height: 460px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  .plase__image{
+    max-width: 440px;
+    min-height: 440px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .plase__image{
+    max-width: 340px;
+    min-height: 340px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .plase__image{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+.footer{
+  width: 92.5%;
+  padding: 92px 0 24px;
+  align-self: center;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  .footer{
+    width: 90.5%;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .footer{
+    width: 93.6%;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .footer{
+    max-width: 100%;
+    padding: 64px 0 24px;
+  }
+}
