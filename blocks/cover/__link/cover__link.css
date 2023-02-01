@@ -1,6 +1,5 @@
 .cover__link {
-  text-decoration: underline 0.08em rgba(255, 255, 255, 0);
-  text-underline-offset: 5px;
+  text-decoration: none;
   transition: 0.5s ease;
   color: #ffffff;
 }

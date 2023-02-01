@@ -6,23 +6,8 @@
   align-self: center;
 }
 
-/* @media screen and (min-width: 1024px) and (max-width: 1279px){
-  .main{
-    max-width: 100%;
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px){
-  .main{
-    max-width: 100%;
-    width: 100%;
-  }
-} */
-
 @media screen and (max-width: 767px){
   .main{
     max-width: 700px;
-    width:  100%;
   }
 }

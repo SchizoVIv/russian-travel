@@ -1,0 +1,4 @@
+.header__lang-link_anderline_ru{
+  text-decoration: underline rgba(255, 255, 255, 1);
+  text-underline-offset: 5px;
+}

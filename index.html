@@ -2,7 +2,6 @@
 <html lang="ru">
 
   <head>
-    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +10,10 @@
   <body class="page">
       <header class="header">
         <div class="header__logo"></div>
-        <div class="header__lang-links">
-          <a class="header__lang-link link-line" href="#">Ru</a>
-          <a class="header__lang-link link-line" href="#">En</a>
-        </div>
+        <ul class="header__lang-links">
+          <li><a class="header__lang-link header__lang-link_anderline_ru link-line" href="#">Ru</a></li>
+          <li><a class="header__lang-link header__lang-link_anderline_en link-line" href="#">En</a></li>
+        </ul>
       </header>
       <main class="main">
         <section class="lead">
@@ -25,9 +24,7 @@
         </section>
         <section class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
-          <article>
             <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-          </article>
           <ul class="intro__list">
             <li class="intro__item">Часовых поясов <span  class="intro__item-font-weigth">11</span></li>
             <li class="intro__item">Объектов природного наследия ЮНЕСКО <span class="intro__item-font-weigth">12</span></li>
@@ -53,7 +50,7 @@
           </ul>
         </section>
         <section class="places">
-          <div class="plase">
+          <div class="place">
             <h2 class="plase__title">Куршская коса</h2>
             <div class="plase__website">
               <p class="plase__url-heading">URL</p>
@@ -126,7 +123,7 @@
           </div>
         </section>
         <section class="cover">
-          <img class="cover__image" src="./img/cover__background.jpg" alt="">
+          <!-- <img class="cover__image" src="./img/cover__background.jpg" alt=""> -->
           <div class="cover__text">
             <h2 class="cover__title">
               <a class="cover__link link-line" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">До Байкала «на собаках»</a>
