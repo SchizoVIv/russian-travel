@@ -5,8 +5,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_anderline_ru/header__lang-link_anderline_ru.css);
-@import url(../blocks/header/__lang-link/_anderline_en/header__lang-link_anderline_en.css);
+@import url(../blocks/lang-link_active/_active.css);
 @import url(../blocks/link-line/link-line.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/lead/lead.css);
